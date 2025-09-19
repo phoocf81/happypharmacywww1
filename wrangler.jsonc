@@ -1,5 +1,5 @@
 {
       "name": "my-worker-project",
-      "main": "src/index.ts",
+      "main": "index.html",
       "compatibility_date": "2025-09-19"
     }
