@@ -1,4 +1,4 @@
-import { getAssetFromKV, serveStatic } from '@cloudflare/kv-asset-handler';
+import { getAssetFromKV, serveStatic } from external: ['@cloudflare/kv-asset-handler'];
 
     addEventListener('fetch', event => {
         event.respondWith(handleEvent(event));
